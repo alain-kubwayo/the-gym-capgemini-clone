@@ -1,0 +1,23 @@
+{
+  "name": "the-gym-capgemini-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alain-kubwayo/the-gym-capgemini-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alain-kubwayo/the-gym-capgemini-clone/issues"
+  },
+  "homepage": "https://github.com/alain-kubwayo/the-gym-capgemini-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
